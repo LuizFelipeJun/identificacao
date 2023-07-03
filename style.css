@@ -1,0 +1,44 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: aliceblue;
+     background-color: black;
+}
+
+#showSketch {
+    float: right;
+}
+
+#sketchName {
+    color: rgb(255, 0, 85);
+}
+
+canvas {
+    border: 5px solid black;
+    margin-top: 150px;
+    animation-name: batata;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes batata {
+    from{box-shadow: 2px 2px 30px brown;}
+    to{box-shadow: 2px 2px 30px burlywood;}
+}
+
+p, span {
+    padding-top: 10px;
+}
+
+#score {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+#time {
+    margin-right: 20px;
+    font-size: 25px;
+    float-right;
+}
